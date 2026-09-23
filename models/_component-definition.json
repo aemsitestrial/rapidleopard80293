@@ -75,6 +75,9 @@
         },
         {
           "...": "../blocks/sticky-cta/_*.json#/definitions"
+        },
+        {
+          "...": "../blocks/quote/_*.json#/definitions"
         }
       ]
     },

@@ -1,0 +1,51 @@
+.quote {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  text-align: center;
+}
+
+.quote .quote-text {
+  margin: 0;
+  font: var(--type-headline-2-default-font);
+  color: var(--color-neutral-900);
+}
+
+.quote .quote-text p {
+  margin: 0 0 8px;
+}
+
+.quote .quote-text p:last-child {
+  margin-bottom: 0;
+}
+
+.quote .quote-text::before {
+  content: '\201C';
+}
+
+.quote .quote-text::after {
+  content: '\201D';
+}
+
+.quote .quote-author {
+  display: block;
+  margin-top: 16px;
+  font: var(--type-body-2-default-font);
+  letter-spacing: var(--type-body-2-default-letter-spacing);
+  font-style: normal;
+  color: var(--color-neutral-700);
+}
+
+.quote .quote-author:not(:empty)::before {
+  content: '\2014\00A0';
+}
+
+@media (width >= 900px) {
+  .quote {
+    padding: 48px 24px;
+  }
+
+  .quote .quote-text {
+    font: var(--type-headline-1-font);
+  }
+}
