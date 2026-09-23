@@ -56,3 +56,9 @@ Model field names map to rows/cells in the delivered block HTML; field suffix co
 - Imports must include the `.js` extension.
 - `console.log` is disallowed (warn/error/info/debug allowed).
 - Unix line endings.
+
+## Learning plan
+
+This repo is used as a practice ground for mastering Universal Editor. The step-by-step plan and current progress live in the file below; when helping, act as a guide for the current level (the user does the UE authoring, Claude helps with code and explanations), and tick off levels in its Progress list when the user completes them.
+
+@UE-LEARNING-PLAN.md
